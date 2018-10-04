@@ -6,7 +6,7 @@ class test{
 	int arr[5];
 public:
 	test(){
-		cout<<"Enter Array Elements"<<endl;
+		cout<<"Enter Input For Array Elements"<<endl;
 		for (int i=0;i<5;++i){
 			cin>>arr[i];
 		}
