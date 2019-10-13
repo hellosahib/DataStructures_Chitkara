@@ -129,8 +129,6 @@ int main()
     l1.insertatend(80);
     l1.insertatloc(200,3);
     l1.deleteatbeg();
-    //l1.deleteatend();
-    //l1.deleteatloc(3);
     l1.traverse();
 
     return 0;
