@@ -121,7 +121,11 @@ void deleteatend()
 int main()
 {
     link_list l1;
-    l1.create_node(5);
+    int n;
+    # Added interactive input
+    cout<<"Enter node count"<<endl;
+    cin>>n;
+    l1.create_node(n);
     l1.insert_beg(60);
     l1.insert_beg(260);
     l1.insert_beg(160);
